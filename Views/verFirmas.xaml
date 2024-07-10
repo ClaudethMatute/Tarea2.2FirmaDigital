@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:convert="clr-namespace:Tarea2._2FirmaDigital.Utilities"
     Title=""
-    BackgroundImageSource="backgroundfirma.png">
+    BackgroundColor="#b3cde7">
     <ContentPage.Resources>
         <convert:base64toImage x:Key="BaseArray" />
     </ContentPage.Resources>
@@ -21,9 +21,8 @@
             <Frame
                 Margin="0,0,0,0"
                 Padding="5,10,5,10"
-                BackgroundColor="{DynamicResource LightBlue70}"
-                BorderColor="Black"
-                CornerRadius="20">
+                BackgroundColor="#b84aff"
+                CornerRadius="0">
                 <StackLayout
                     Margin="0,0,0,0"
                     Padding="0,0,0,0"
@@ -36,7 +35,7 @@
                         FontSize="20"
                         HorizontalTextAlignment="Center"
                         Text="Firmas Agregadas"
-                        TextColor="Black"
+                        TextColor="White"
                         VerticalOptions="Start" />
                 </StackLayout>
             </Frame>
